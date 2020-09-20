@@ -3,6 +3,7 @@ import 'package:movie_app/model/movie.dart';
 
 void main() {
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: MoveListView(),
   ));
 }
